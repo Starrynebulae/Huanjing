@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7a3f30bfe39511947986237328ae0da4, type: 3}
+  m_Name: ManageContainer
+  m_EditorClassIdentifier: Assembly-CSharp::NewBehaviourScript
+  bgTheme:
+  - {fileID: 21300000, guid: 9c7f8abaceea58e4db628c3935ed7c4a, type: 3}
+  - {fileID: 21300000, guid: 5feddf0396f8fd842b6a2034a343e884, type: 3}
+  - {fileID: 21300000, guid: 274864b118ac4f54589e32e7035cd77f, type: 3}
+  - {fileID: 21300000, guid: 81cb795749aefac4ea7663bc3f7f71fb, type: 3}
+  platformTheme:
+  - {fileID: 21300002, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
+  - {fileID: 21300012, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
+  - {fileID: 21300004, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
+  - {fileID: 21300000, guid: 20da7e56cbb26b3498b25fb61fa9a7ff, type: 3}
+  nextXpos: 0.554
+  nextYpos: 0.645
+  nomalPlatFormPre: {fileID: 7669955590825493571, guid: ae834a964a8f2bb4ab17f12525b0ab1d,
+    type: 3}
+  characterPre: {fileID: 4201983242159203299, guid: b4d178c59060357478c1c536b63a11fc,
+    type: 3}
+  spikePlatFormRight: {fileID: 1794178802, guid: 4c58f2207a2cfd94798a684cff176fc9,
+    type: 3}
+  spikePlatFormLeft: {fileID: 1794178802, guid: c76c105e4de29254d8e472ac24139889,
+    type: 3}
+  comPlatformGroup:
+  - {fileID: 3428643998492926754, guid: 44eabb7155c25804a84c16ade6570ab2, type: 3}
+  - {fileID: 3428643998492926754, guid: fd2524d86b8d2384296347ffd46edcf4, type: 3}
+  - {fileID: 3428643998492926754, guid: 982aab25bdcdb2a418b48d6c86565081, type: 3}
+  - {fileID: 3428643998492926754, guid: ef412bf6b6f2fa6459075308736659bc, type: 3}
+  grassPlatformGroup:
+  - {fileID: 3428643998492926754, guid: fd9b7760c50df7545998864e37710e01, type: 3}
+  - {fileID: 3428643998492926754, guid: 165965089fa7ea34e88d35356d5f0df5, type: 3}
+  winterPlatformGroup:
+  - {fileID: 3428643998492926754, guid: af255a5f81828cb4fadf8cbae303d83e, type: 3}
+  - {fileID: 3428643998492926754, guid: aff17aa0831eb2248808053df6e6355c, type: 3}
+  - {fileID: 3428643998492926754, guid: 1e09cebdd2cb0d2478e35baf588bc0c1, type: 3}
